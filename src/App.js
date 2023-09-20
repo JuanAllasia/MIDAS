@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <>
+    <body className='body'>
       <header className='headerapp'>
         <NavBar/>
       </header>
@@ -15,7 +15,7 @@ function App() {
 
       </footer>
     
-    </>
+    </body>
   );
 }
 

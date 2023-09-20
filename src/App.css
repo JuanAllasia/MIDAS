@@ -1,24 +1,25 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 
 .headerapp{
-  background-image: url('./assets/estemejor.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
   border-bottom: solid red;
   padding: 10px;
 }
 .mainapp{
   display: flex;
-  background-image: url('./assets/fondoororojo.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   justify-content: center;
   height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .footerapp{
   background-color: black;
   height: 100px;
+}
+body{
+  background-image: url('./assets/fondoororojo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  
 }
